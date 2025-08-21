@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 100dvw;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -169,7 +169,7 @@ body {
 .hero {
     background: linear-gradient(135deg, var(--red-primary) 0%, var(--red-dark) 50%, var(--red-darker) 100%);
     color: var(--white);
-    padding: 5rem 0;
+    padding: 5rem 2.2rem;
 }
 
 .hero-content {
@@ -279,7 +279,7 @@ body {
 
 /* Menu Section */
 .menu-section {
-    padding: 5rem 0;
+    padding: 5rem 2rem;
     background: var(--gray-50);
 }
 
@@ -432,7 +432,7 @@ body {
 
 /* Location Section */
 .location-section {
-    padding: 5rem 0;
+    padding: 5rem 2rem;
     background: var(--gray-900);
     color: var(--white);
 }
@@ -527,9 +527,16 @@ body {
 
 /* Contact Section */
 .contact-section {
-    padding: 5rem 0;
+    padding: 5rem 2rem;
     background: var(--red-primary);
     color: var(--white);
+}
+.text-yellow{
+    color: var(--yellow-primary);
+}
+.section-description2{
+    margin-top: 0;
+    color: var(--gray-50);
 }
 
 .contact-content {
